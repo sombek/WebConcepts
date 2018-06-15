@@ -7,8 +7,8 @@ I would start with this becuase they are really one of the most important fundma
 ```
 <html> 
 	<body>
-      <h1> Hello World </h1>
-    </body>
+		<h1> Hello World </h1>
+	</body>
 </html>
 ```
 
@@ -20,10 +20,6 @@ Assuming that you know the basics of jQuery.
 ``<html> -> <body> -> <h1>``
 this is the tree of the html or Document Object Model.
 
-Is it clear?
- - Yes, I know this already
- - good, I will go through the others in a moment.
-
 ### jQuery 
 As you mentioned in your document it has too many benifets. It is one of the most important 
 libraries. 
@@ -33,7 +29,7 @@ As we said ysetrady the web application has 3 diffrent concpets or methodologies
 - jQuery based / MVC 
 - RESTful APIs
 
-![Web app archtectures](https://blog.octo.com/wp-content/uploads/2014/03/web-application-models-over-time.png")[take a deep look at this figure]
+![Web app archtectures](https://blog.octo.com/wp-content/uploads/2014/03/web-application-models-over-time.png")*take a deep look at this figure*
 
 
 I will go through the RESTful APIs and explain it as I can go :)     
@@ -74,8 +70,11 @@ What if we want the average price of the oil per month? Simply we would write an
 **Pop quiz: 📖** Where the code of the above endpoint will be written? And in which language will be written? if our `x` is running on `Algol`, and our `y` app is running on `Golang`?
 
 **Answer: 📝**
-
-
+Before I start to explain the `*endpoint*` concept, I must explain what is it in the origin ..
+The endpoint it is one of the web services API, which is a software intermediary that allows two applications to talk to each other.. one of them is a service provider and the other one is service consumer.
+In our case the legacy system “X” is a service provider, which provides the developer with the data he needs in the Front-end. As a result, the service consumer here is the "developer".
+Well, to allow the developer to communicate with the legacy system"X" we need to write a web server (handling the endpoints) on the new system "Y" using its language "golang".
+"Y" Now can interact with "x" in a certain way to fetch the required data and then deliver it as JSON file to the developer as HTTP response.
 
 
 
