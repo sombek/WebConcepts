@@ -29,7 +29,9 @@ As we said ysetrady the web application has 3 diffrent concpets or methodologies
 - jQuery based / MVC 
 - RESTful APIs
 
-![Web app archtectures](https://blog.octo.com/wp-content/uploads/2014/03/web-application-models-over-time.png")*take a deep look at this figure*
+| ![Web app archtectures](https://blog.octo.com/wp-content/uploads/2014/03/web-application-models-over-time.png) | 
+|:--:| 
+| *take a deep look at this figure* |
 
 
 I will go through the RESTful APIs and explain it as I can go :)     
